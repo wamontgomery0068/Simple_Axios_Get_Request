@@ -33,10 +33,50 @@
 }
 
 .Card_Top_Left {
-  background-color: white;;
+  display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+  
+  background-color: black;
   border: 2px solid yellow;
-  border-top-left-radius: 15px;
+  border-top-left-radius: 40px;
   width: 14vw;
+}
+
+.Card_Top_Jedi {
+  display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+  
+  border: 2px solid yellow;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 85px;
+  height: 10vh
+}
+
+.Card_Top_Jedi_Circle {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  
+  border: 2px solid yellow;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-left: -1%;
+}
+
+.Jedi_Crest {
+  height: 50px
+}
+
+.Number_Text {
+  font-size: 40px;
+  color: white;
+  margin-left: 10%
 }
 
 .Card_Top_Right {
@@ -64,4 +104,40 @@
   border-bottom-right-radius: 15px;
   height: 40vh;
   width: 24.8vw;
+}
+
+.Name_Text {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.Occupation_Container {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  
+  background-color: yellow;
+  /* border: 2px solid white; */
+  height: 5vh;
+}
+
+.Occupation_Text {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.StarWars_Container {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.StarWars_Logo {
+  height: 90px;
+  width: 90px;
 }
