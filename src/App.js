@@ -49,7 +49,20 @@ class App extends Component {
               <img className = "Card_Image" src = { Luke } alt = "Luke" />
             </div>
           </div>
-          <div className = "Card_Bottom_Inner_Box"></div>
+          <div className = "Card_Bottom_Inner_Box">
+            <div className = "Card_Bottom_Top">
+              <div className = "Line_Design_1"></div>
+              <p className = "Stats_Text"> Stats </p>
+              <div className = "Line_Design_2"></div>
+            </div>
+            <div className = "Card_Bottom_Bottom">
+              <p className = "Detail_Text"> Gender: {this.state.lukeSkywalker.gender} </p>
+              <p className = "Detail_Text"> Birth Year: {this.state.lukeSkywalker.birth_year} </p>
+              <p className = "Detail_Text"> Height: {this.state.lukeSkywalker.height} </p>
+              <p className = "Detail_Text"> Hair Color:{this.state.lukeSkywalker.hair_color} </p>
+              <p className = "Detail_Text"> Eye Color: {this.state.lukeSkywalker.eye_color} </p>
+            </div>
+          </div>
         </div>
       </div>
     );

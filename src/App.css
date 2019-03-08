@@ -63,8 +63,8 @@
 	align-items: center;
   
   border: 2px solid yellow;
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 65px;
   border-radius: 50%;
   margin-left: -1%;
 }
@@ -93,17 +93,71 @@
 }
 
 .Card_Image {
-  height: 276px;
-  width: 231px;
+  height: 279px;
+  width: 219.5px;
+  margin-left: .5%
 }
 
 .Card_Bottom_Inner_Box {
-  background-color: white;
+  display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+  
+  background-color: black;
   border: 2px solid yellow;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 25px;
   height: 40vh;
-  width: 24.8vw;
+  width: 24.7vw;
+}
+
+.Card_Bottom_Top {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  
+  /* border: 2px solid white; */
+  height: 10vh;
+}
+
+.Line_Design_1 {
+  border: 2px solid yellow;
+  width: 9vw
+}
+
+.Stats_Text {
+  color: yellow;
+  font-size: 30px;
+  margin-left: 2%;
+  margin-right: 2%
+}
+
+.Line_Design_2 {
+  border: 2px solid yellow;
+  width: 9vw
+}
+
+
+
+.Card_Bottom_Bottom {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  
+  /* border: 2px solid white; */
+  height: 26vh;
+  border-bottom-right-radius: 21px;
+}
+
+.Detail_Text {
+  color: white;
+  font-size: 23px;
+  margin-left: 2%;
+  line-height: 1px
 }
 
 .Name_Text {
